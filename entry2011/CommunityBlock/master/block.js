@@ -525,7 +525,36 @@ headers: {
 }
 })
 return script.callReturn()
-}) /////////////0.3//
+}) /////////////0.3//  
+
+////////////////////
+addBlock('post_report', '%1 탭 열기', {  
+color: EntryStatic.colorSet.block.default.HARDWAR,
+outerLine: EntryStatic.colorSet.block.darken.HARDWAR
+}, {
+params: [
+{
+type: 'Block',
+accept: 'string'
+},
+{
+type: 'Block',
+accept: 'string'
+},
+{
+type: 'Indicator',
+img: 'block_icon/hardware_icon.svg',
+size: 11,
+}
+],
+def: [
+{
+open('%1값')
+}
+})
+return script.callReturn()
+}) /////////////0.3//  
+
 // 블록 추가 끝
 
 
