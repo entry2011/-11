@@ -385,7 +385,7 @@ headers: {
 }
 })
 return script.callReturn()
-}) /////////////0.3//
+}) /////////////0.5(onlythis)//
 
 ////////////////////
 addBlock('post_commu', '%1 제목과 %2 내용의 글을 엔트리이야기에 올리기%3', {
@@ -477,7 +477,7 @@ headers: {
 }
 })
 return script.callReturn()
-}) /////////////0.3//
+}) /////////////0.3(onlythis)//
 
 
 
